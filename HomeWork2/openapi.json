@@ -1,0 +1,580 @@
+{
+  "openapi": "3.0.3",
+  "info": 
+  {
+    "title": "Blablacar (User, Route, Trip)",
+    "description": "Сводная OpenAPI документация по трём сервисам: User Service, Route Service, Trip Service.",
+    "version": "1.0.0"
+  },
+
+  "tags": 
+  [
+    { "name": "auth", "description": "Авторизация (JWT)" },
+    { "name": "users", "description": "Управление пользователями" },
+    { "name": "routes", "description": "Управление маршрутами" },
+    { "name": "trips", "description": "Управление поездками" }
+  ],
+
+  "paths": 
+  {
+    "/auth/token": 
+    {
+      "post": 
+      {
+        "tags": ["auth"],
+        "summary": "Получить JWT-токен по логину/паролю",
+        "requestBody": 
+        {
+          "required": true,
+          "content": 
+          {
+            "application/json": 
+            {
+              "schema": { "$ref": "#/components/schemas/TokenRequest" }
+            }
+          }
+        },
+
+        "responses": 
+        {
+          "200": 
+          {
+            "description": "Успешно получен токен",
+            "content": 
+            {
+              "application/json": 
+              {
+                "schema": { "$ref": "#/components/schemas/TokenResponse" }
+              }
+            }
+          },
+
+          "400": 
+          {
+            "description": "Неверный логин/пароль"
+          }
+        }
+      }
+    },
+
+    "/users": 
+    {
+      "post": 
+      {
+        "tags": ["users"],
+        "summary": "Создание нового пользователя",
+        "security": [ { "bearerAuth": [] } ],
+        "requestBody": 
+        {
+          "required": true,
+          "content": 
+          {
+            "application/json": 
+            {
+              "schema": { "$ref": "#/components/schemas/UserCreate" }
+            }
+          }
+        },
+
+        "responses": 
+        {
+          "200": 
+          {
+            "description": "Пользователь успешно создан",
+            "content": 
+            {
+              "application/json": 
+              {
+                "schema": { "$ref": "#/components/schemas/UserRead" }
+              }
+            }
+          },
+
+          "400": 
+          {
+            "description": "Логин уже занят или другая ошибка"
+          }
+        }
+      },
+
+      "get": 
+      {
+        "tags": ["users"],
+        "summary": "Поиск пользователей по имени и фамилии",
+        "security": [ { "bearerAuth": [] } ],
+        "parameters": [
+          {
+            "name": "Имя",
+            "in": "query",
+            "schema": { "type": "string" },
+            "required": true,
+            "description": "Имя пользователя"
+          },
+
+          {
+            "name": "Фамилия",
+            "in": "query",
+            "schema": { "type": "string" },
+            "required": false,
+            "description": "Фамилия пользователя"
+          }
+        ],
+
+        "responses": 
+        {
+          "200": 
+          {
+            "description": "Список найденных пользователей",
+            "content": {
+              "application/json": 
+              {
+                "schema": 
+                {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/UserRead" }
+                }
+
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/users/{login}": 
+    {
+      "get": 
+      {
+        "tags": ["users"],
+        "summary": "Поиск пользователя по логину",
+        "security": [ { "bearerAuth": [] } ],
+        "parameters": 
+        [
+          {
+            "name": "Логин",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+
+        "responses": 
+        {
+          "200": 
+          {
+            "description": "Информация о пользователе",
+            "content": 
+            {
+              "application/json": 
+              {
+                "schema": { "$ref": "#/components/schemas/UserRead" }
+              }
+            }
+          },
+
+          "404": 
+          {
+            "description": "Пользователь не найден"
+          }
+        }
+      }
+    },
+
+    "/routes": 
+    {
+      "post": 
+      {
+        "tags": ["routes"],
+        "summary": "Создание маршрута",
+        "security": [ { "bearerAuth": [] } ],
+        "requestBody": 
+        {
+          "content": 
+          {
+            "application/json": 
+            {
+              "schema": { "$ref": "#/components/schemas/RouteCreate" }
+            }
+          },
+
+          "required": true
+        },
+
+        "responses": 
+        {
+          "200": 
+          {
+            "description": "Маршрут успешно создан",
+            "content": 
+            {
+              "application/json": 
+              {
+                "schema": { "$ref": "#/components/schemas/RouteRead" }
+              }
+            }
+          }
+        }
+      },
+
+      "get": 
+      {
+        "tags": ["routes"],
+        "summary": "Получить список всех маршрутов",
+        "security": [ { "bearerAuth": [] } ],
+        "responses": 
+        {
+          "200":
+          {
+            "description": "Список маршрутов",
+            "content": 
+            {
+              "application/json": 
+              {
+                "schema": 
+                {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/RouteRead" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/routes/{routeId}": 
+    {
+      "get": 
+      {
+        "tags": ["routes"],
+        "summary": "Получить маршрут по ID",
+        "security": [ { "bearerAuth": [] } ],
+        "parameters": 
+        [
+          {
+            "name": "ID маршрута",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+
+        "responses": 
+        {
+          "200": 
+          {
+            "description": "Информация о маршруте",
+            "content": 
+            {
+              "application/json": 
+              {
+                "schema": { "$ref": "#/components/schemas/RouteRead" }
+              }
+            }
+          },
+
+          "404": 
+          {
+            "description": "Маршрут не найден"
+          }
+        }
+      }
+    },
+
+    "/trips": 
+    {
+      "post": 
+      {
+        "tags": ["trips"],
+        "summary": "Создание поездки",
+        "security": [ { "bearerAuth": [] } ],
+        "requestBody": 
+        {
+          "required": true,
+          "content":
+          {
+            "application/json":
+            {
+              "schema": { "$ref": "#/components/schemas/TripCreate" }
+            }
+          }
+        },
+
+        "responses": 
+        {
+          "200": 
+          {
+            "description": "Поездка успешно создана",
+            "content": 
+            {
+              "application/json": 
+              {
+                "schema": { "$ref": "#/components/schemas/TripRead" }
+              }
+            }
+          },
+
+          "400": 
+          {
+            "description": "Ошибка (невалидные данные и т.п.)"
+          }
+        }
+      },
+
+      "get": 
+      {
+        "tags": ["trips"],
+        "summary": "Список всех поездок",
+        "security": [ { "bearerAuth": [] } ],
+        "responses": 
+        {
+          "200": 
+          {
+            "description": "Список поездок",
+            "content": 
+            {
+              "application/json": {
+                "schema": 
+                {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/TripRead" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/trips/{trip_id}": 
+    {
+      "get": 
+      {
+        "tags": ["trips"],
+        "summary": "Получение информации о поездке",
+        "security": [ { "bearerAuth": [] } ],
+        "parameters": 
+        [
+          {
+            "name": "ID поездки",
+            "in": "path",
+            "required": false,
+            "schema": { "type": "integer" }
+          }
+        ],
+
+        "responses": 
+        {
+          "200": 
+          {
+            "description": "Информация о поездке",
+            "content": {
+              "application/json": 
+              {
+                "schema": { "$ref": "#/components/schemas/TripRead" }
+              }
+            }
+          },
+
+          "404": 
+          {
+            "description": "Поездка не найдена"
+          }
+        }
+      }
+    },
+
+    "/trips/{trip_id}/join": 
+    {
+      "post": 
+      {
+        "tags": ["trips"],
+        "summary": "Подключение пользователей к поездке (пассажир)",
+        "security": [ { "bearerAuth": [] } ],
+        "parameters": [
+          {
+            "name": "ID поездки",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+
+        "requestBody": 
+        {
+          "required": true,
+          "content": 
+          {
+            "application/json": 
+            {
+              "schema": { "$ref": "#/components/schemas/JoinTripRequest" }
+            }
+          }
+        },
+
+        "responses": 
+        {
+          "200": 
+          {
+            "description": "Пользователь успешно присоединился к поездке",
+            "content": 
+            {
+              "application/json": 
+              {
+                "schema": { "$ref": "#/components/schemas/TripRead" }
+              }
+            }
+          },
+          "400": 
+          {
+            "description": "Нет мест / пользователь уже в поездке / невалидный trip_id"
+          }
+        }
+      }
+    }
+  },
+
+
+  "components": 
+  {
+    "securitySchemes": 
+    {
+      "bearerAuth": 
+      {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    },
+
+    "schemas": 
+    {
+      "TokenRequest": 
+      {
+        "type": "object",
+        "properties": 
+        {
+          "username": { "type": "string" },
+          "password": { "type": "string" }
+        },
+        "required": ["username", "password"]
+      },
+
+      "TokenResponse": 
+      {
+        "type": "object",
+        "properties": {
+          "access_token": { "type": "string" },
+          "token_type": { "type": "string", "default": "bearer" }
+        },
+        "required": ["access_token"]
+      },
+
+      "UserCreate": 
+      {
+        "type": "object",
+        "properties": 
+        {
+          "login": { "type": "string" },
+          "password": { "type": "string" },
+          "first_name": { "type": "string" },
+          "last_name": { "type": "string" },
+          "age": {"type": "integer"}
+        },
+        "required": ["login", "password", "first_name", "last_name", "age"]
+      },
+
+      "UserRead": 
+      {
+        "type": "object",
+        "properties": 
+        {
+          "user_id": { "type": "integer" },
+          "login": { "type": "string" },
+          "first_name": { "type": "string" },
+          "last_name": { "type": "string" },
+          "age": {"type": "integer"}
+        }
+      },
+
+      "RouteCreate": 
+      {
+        "type": "object",
+        "properties": 
+        {
+          "start_point": { "type": "string" },
+          "end_point": { "type": "string" },
+          "waypoints": 
+          {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "distance":{"type":"integer"}
+        },
+        "required": ["start_point", "end_point"]
+      },
+
+      "RouteRead": 
+      {
+        "type": "object",
+        "properties": 
+        {
+          "route_id": { "type": "integer" },
+          "start_point": { "type": "string" },
+          "end_point": { "type": "string" },
+          "waypoints": 
+          {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "distance":{"type":"integer"}
+        }
+      },
+
+      "TripCreate": 
+      {
+        "type": "object",
+        "properties": 
+        {
+          "route_id": { "type": "integer" },
+          "driver_user_id": { "type": "integer" },
+          "start_time": { "type": "string", "format": "date-time" },
+          "max_passengers": { "type": "integer" }
+        },
+        "required": ["route_id", "driver_user_id", "start_time", "max_passengers"]
+      },
+
+      "TripRead": 
+      {
+        "type": "object",
+        "properties": 
+        {
+          "trip_id": { "type": "integer" },
+          "route_id": { "type": "integer" },
+          "driver_user_id": { "type": "integer" },
+          "start_time": { "type": "string", "format": "date-time" },
+          "max_passengers": { "type": "integer" },
+          "passenger_ids": 
+          {
+            "type": "array",
+            "items": { "type": "integer" }
+          }
+        }
+      },
+
+      "JoinTripRequest": 
+      {
+        "type": "object",
+        "properties": 
+        {
+          "user_id": { "type": "integer" }
+        },
+        "required": ["user_id"]
+      }
+    }
+  },
+
+  "security": 
+  [
+    { "bearerAuth": [] }
+  ]
+}
