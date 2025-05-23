@@ -1,0 +1,341 @@
+11:23:17.128 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Starting ProcessIO Connection
+11:23:17.130 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Launching C4LanguageServer started
+11:23:17.377 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+11:23:17.456 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+11:23:17.458 [main] INFO  d.s.c.ls.service.C4LanguageServer - getWorkspaceService
+11:23:17.471 [main] INFO  d.s.c.ls.service.C4LanguageServer - connect
+11:23:17.519 [pool-1-thread-1] INFO  d.s.c.ls.service.C4LanguageServer - initialize
+11:23:17.561 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didOpen file:///e%3A/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/SoftwareEngineering/HomeWork2/Structurizer/workspace.dsl
+11:23:17.562 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDiagnostics 0
+11:23:17.567 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.autoformat.indent
+11:23:17.568 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+11:23:17.569 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:23:17.629 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - createModel e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.631 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing...
+11:23:17.651 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 1, contextId: 1718597329, contextName WorkspaceDslContext
+11:23:17.651 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.653 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 5, contextId: 1485218204, contextName ModelDslContext
+11:23:17.653 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.655 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: user, modelId: 1 at linenumber: workspace.dsl, 6
+11:23:17.655 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.656 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: companion_search, modelId: 2 at linenumber: workspace.dsl, 8
+11:23:17.656 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.656 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 8, contextId: 311490522, contextName SoftwareSystemDslContext
+11:23:17.656 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.658 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: Trip_API_db, modelId: 3 at linenumber: workspace.dsl, 10
+11:23:17.658 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.658 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 10, contextId: 2054844864, contextName ContainerDslContext
+11:23:17.658 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.662 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 13, contextId: 2054844864, contextName ContainerDslContext
+11:23:17.663 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.666 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: auth_API_db, modelId: 4 at linenumber: workspace.dsl, 16
+11:23:17.667 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.667 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 16, contextId: 1938326958, contextName ContainerDslContext
+11:23:17.667 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.668 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 21, contextId: 1938326958, contextName ContainerDslContext
+11:23:17.669 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.669 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users_API_db, modelId: 5 at linenumber: workspace.dsl, 24
+11:23:17.669 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.670 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 24, contextId: 1050304075, contextName ContainerDslContext
+11:23:17.670 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.670 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 29, contextId: 1050304075, contextName ContainerDslContext
+11:23:17.670 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.671 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: auth_API, modelId: 6 at linenumber: workspace.dsl, 31
+11:23:17.671 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.671 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 31, contextId: 756476021, contextName ContainerDslContext
+11:23:17.671 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.675 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 6->4, identifier: null, at linenumber: workspace.dsl, 37
+11:23:17.675 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.791 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: database_controller, modelId: 8 at linenumber: workspace.dsl, 39
+11:23:17.791 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.791 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 39, contextId: 1883987674, contextName ComponentDslContext
+11:23:17.792 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.792 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 8->4, identifier: null, at linenumber: workspace.dsl, 44
+11:23:17.792 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.793 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 45, contextId: 1883987674, contextName ComponentDslContext
+11:23:17.793 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.793 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: auth_controller, modelId: 10 at linenumber: workspace.dsl, 47
+11:23:17.793 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.793 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 47, contextId: 1150128977, contextName ComponentDslContext
+11:23:17.793 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.794 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 10->8, identifier: null, at linenumber: workspace.dsl, 53
+11:23:17.794 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.794 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 54, contextId: 1150128977, contextName ComponentDslContext
+11:23:17.794 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.794 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 56, contextId: 756476021, contextName ContainerDslContext
+11:23:17.794 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.795 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users_API, modelId: 12 at linenumber: workspace.dsl, 58
+11:23:17.795 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.795 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 58, contextId: 1078057512, contextName ContainerDslContext
+11:23:17.795 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.795 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 12->5, identifier: null, at linenumber: workspace.dsl, 62
+11:23:17.796 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.796 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 12->6, identifier: null, at linenumber: workspace.dsl, 63
+11:23:17.796 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.796 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: database_controller, modelId: 15 at linenumber: workspace.dsl, 65
+11:23:17.796 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.796 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 65, contextId: 697447487, contextName ComponentDslContext
+11:23:17.797 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.797 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 15->5, identifier: null, at linenumber: workspace.dsl, 70
+11:23:17.797 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.798 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 71, contextId: 697447487, contextName ComponentDslContext
+11:23:17.798 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.798 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: auth_controller, modelId: 17 at linenumber: workspace.dsl, 73
+11:23:17.798 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.798 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 73, contextId: 59052633, contextName ComponentDslContext
+11:23:17.798 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 17->6, identifier: null, at linenumber: workspace.dsl, 78
+11:23:17.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 79, contextId: 59052633, contextName ComponentDslContext
+11:23:17.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users_controller, modelId: 19 at linenumber: workspace.dsl, 81
+11:23:17.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 81, contextId: 725229155, contextName ComponentDslContext
+11:23:17.800 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.800 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 19->15, identifier: null, at linenumber: workspace.dsl, 87
+11:23:17.800 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.800 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 19->6, identifier: null, at linenumber: workspace.dsl, 88
+11:23:17.800 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 19->17, identifier: null, at linenumber: workspace.dsl, 89
+11:23:17.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 90, contextId: 725229155, contextName ComponentDslContext
+11:23:17.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 91, contextId: 1078057512, contextName ContainerDslContext
+11:23:17.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: Trip_API, modelId: 23 at linenumber: workspace.dsl, 95
+11:23:17.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 95, contextId: 1709441462, contextName ContainerDslContext
+11:23:17.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 23->3, identifier: null, at linenumber: workspace.dsl, 100
+11:23:17.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 23->12, identifier: null, at linenumber: workspace.dsl, 101
+11:23:17.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.803 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: database_controller, modelId: 26 at linenumber: workspace.dsl, 103
+11:23:17.803 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.803 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 103, contextId: 1576002297, contextName ComponentDslContext
+11:23:17.803 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.803 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 26->3, identifier: null, at linenumber: workspace.dsl, 108
+11:23:17.803 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 109, contextId: 1576002297, contextName ComponentDslContext
+11:23:17.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: auth_controller, modelId: 28 at linenumber: workspace.dsl, 112
+11:23:17.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 112, contextId: 1993553095, contextName ComponentDslContext
+11:23:17.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 28->6, identifier: null, at linenumber: workspace.dsl, 117
+11:23:17.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 118, contextId: 1993553095, contextName ComponentDslContext
+11:23:17.805 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.805 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: routes_controller, modelId: 31 at linenumber: workspace.dsl, 120
+11:23:17.805 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.805 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 120, contextId: 224519544, contextName ComponentDslContext
+11:23:17.805 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 31->26, identifier: null, at linenumber: workspace.dsl, 126
+11:23:17.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 31->28, identifier: null, at linenumber: workspace.dsl, 127
+11:23:17.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 129, contextId: 224519544, contextName ComponentDslContext
+11:23:17.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: trips_controller, modelId: 34 at linenumber: workspace.dsl, 131
+11:23:17.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.807 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 131, contextId: 1213050067, contextName ComponentDslContext
+11:23:17.807 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.807 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 34->26, identifier: null, at linenumber: workspace.dsl, 137
+11:23:17.807 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.807 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 34->28, identifier: null, at linenumber: workspace.dsl, 138
+11:23:17.807 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.808 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 34->12, identifier: null, at linenumber: workspace.dsl, 139
+11:23:17.808 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.808 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 140, contextId: 1213050067, contextName ComponentDslContext
+11:23:17.808 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.808 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 141, contextId: 1709441462, contextName ContainerDslContext
+11:23:17.808 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.808 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 144, contextId: 311490522, contextName SoftwareSystemDslContext
+11:23:17.808 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.809 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 146, contextId: 1932912396, contextName DeploymentEnvironmentDslContext
+11:23:17.809 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.811 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+11:23:17.811 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 38 at linenumber: workspace.dsl, 147
+11:23:17.811 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.812 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 147, contextId: 974863058, contextName DeploymentNodeDslContext
+11:23:17.812 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.812 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:23:17.813 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 39 at linenumber: workspace.dsl, 151
+11:23:17.813 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.813 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 151, contextId: 977115337, contextName DeploymentNodeDslContext
+11:23:17.813 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.816 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 40 at linenumber: workspace.dsl, 153
+11:23:17.816 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.816 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 153, contextId: 352531543, contextName ContainerInstanceDslContext
+11:23:17.816 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 155, contextId: 352531543, contextName ContainerInstanceDslContext
+11:23:17.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 156, contextId: 977115337, contextName DeploymentNodeDslContext
+11:23:17.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 41 at linenumber: workspace.dsl, 158
+11:23:17.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 158, contextId: 1737151427, contextName DeploymentNodeDslContext
+11:23:17.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 42 at linenumber: workspace.dsl, 160
+11:23:17.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 160, contextId: 1961635123, contextName ContainerInstanceDslContext
+11:23:17.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 162, contextId: 1961635123, contextName ContainerInstanceDslContext
+11:23:17.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 163, contextId: 1737151427, contextName DeploymentNodeDslContext
+11:23:17.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 43 at linenumber: workspace.dsl, 166
+11:23:17.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 166, contextId: 1966958518, contextName DeploymentNodeDslContext
+11:23:17.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 44 at linenumber: workspace.dsl, 168
+11:23:17.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 168, contextId: 2031109322, contextName ContainerInstanceDslContext
+11:23:17.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 170, contextId: 2031109322, contextName ContainerInstanceDslContext
+11:23:17.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 171, contextId: 1966958518, contextName DeploymentNodeDslContext
+11:23:17.820 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.820 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 45 at linenumber: workspace.dsl, 174
+11:23:17.820 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.820 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 174, contextId: 1211466976, contextName DeploymentNodeDslContext
+11:23:17.820 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.822 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 46 at linenumber: workspace.dsl, 175
+11:23:17.822 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.822 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 175, contextId: 881875152, contextName InfrastructureNodeDslContext
+11:23:17.822 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.822 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 177, contextId: 881875152, contextName InfrastructureNodeDslContext
+11:23:17.822 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.823 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 6->4, identifier: null, at linenumber: workspace.dsl, 182
+11:23:17.823 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.823 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 6->5, identifier: null, at linenumber: workspace.dsl, 183
+11:23:17.823 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 12->6, identifier: null, at linenumber: workspace.dsl, 184
+11:23:17.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 23->6, identifier: null, at linenumber: workspace.dsl, 185
+11:23:17.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 23->12, identifier: null, at linenumber: workspace.dsl, 186
+11:23:17.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 187, contextId: 1211466976, contextName DeploymentNodeDslContext
+11:23:17.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 188, contextId: 974863058, contextName DeploymentNodeDslContext
+11:23:17.825 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.825 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 189, contextId: 1932912396, contextName DeploymentEnvironmentDslContext
+11:23:17.825 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.825 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->2, identifier: null, at linenumber: workspace.dsl, 193
+11:23:17.825 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->23, identifier: null, at linenumber: workspace.dsl, 194
+11:23:17.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->12, identifier: null, at linenumber: workspace.dsl, 195
+11:23:17.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->6, identifier: null, at linenumber: workspace.dsl, 196
+11:23:17.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->34, identifier: null, at linenumber: workspace.dsl, 198
+11:23:17.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.827 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->31, identifier: null, at linenumber: workspace.dsl, 199
+11:23:17.827 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.827 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->19, identifier: null, at linenumber: workspace.dsl, 201
+11:23:17.827 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.827 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->10, identifier: null, at linenumber: workspace.dsl, 203
+11:23:17.827 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.827 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 206, contextId: 1485218204, contextName ModelDslContext
+11:23:17.827 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.828 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 208, contextId: 391653563, contextName ViewsDslContext
+11:23:17.828 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.830 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 212, contextId: 500379948, contextName StylesDslContext
+11:23:17.830 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.832 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 213, contextId: 894111719, contextName ElementStyleDslContext
+11:23:17.832 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.833 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 215, contextId: 894111719, contextName ElementStyleDslContext
+11:23:17.833 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.833 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 216, contextId: 500379948, contextName StylesDslContext
+11:23:17.833 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.838 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: context_comp at linenumber workspace.dsl, 218
+11:23:17.838 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.838 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 218, contextId: 281217726, contextName SystemContextViewDslContext
+11:23:17.838 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.843 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 221, contextId: 281217726, contextName SystemContextViewDslContext
+11:23:17.843 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.844 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: c2 at linenumber workspace.dsl, 224
+11:23:17.844 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.844 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 224, contextId: 2078623040, contextName ContainerViewDslContext
+11:23:17.844 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.848 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 227, contextId: 2078623040, contextName ContainerViewDslContext
+11:23:17.849 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.850 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: c3_auth at linenumber workspace.dsl, 229
+11:23:17.850 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.850 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 229, contextId: 589894231, contextName ComponentViewDslContext
+11:23:17.850 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.851 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 233, contextId: 589894231, contextName ComponentViewDslContext
+11:23:17.851 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.852 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: c3_users at linenumber workspace.dsl, 235
+11:23:17.852 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.852 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 235, contextId: 95367530, contextName ComponentViewDslContext
+11:23:17.852 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.853 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 239, contextId: 95367530, contextName ComponentViewDslContext
+11:23:17.853 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.853 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: c3_companion_search at linenumber workspace.dsl, 242
+11:23:17.853 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.853 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 242, contextId: 454790379, contextName ComponentViewDslContext
+11:23:17.853 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.855 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 246, contextId: 454790379, contextName ComponentViewDslContext
+11:23:17.855 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.857 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Deployment-001 at linenumber workspace.dsl, 248
+11:23:17.857 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.857 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 248, contextId: 698160167, contextName DeploymentViewDslContext
+11:23:17.857 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.860 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 251, contextId: 698160167, contextName DeploymentViewDslContext
+11:23:17.860 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.860 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+11:23:17.861 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:23:17.862 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: CreateTrip at linenumber workspace.dsl, 253
+11:23:17.862 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.862 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 253, contextId: 948307058, contextName DynamicViewDslContext
+11:23:17.862 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.864 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 262, contextId: 948307058, contextName DynamicViewDslContext
+11:23:17.864 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.864 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 264, contextId: 391653563, contextName ViewsDslContext
+11:23:17.864 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.864 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 265, contextId: 1718597329, contextName WorkspaceDslContext
+11:23:17.864 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.864 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing finished
+11:23:17.867 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setWorkspace Travel companion search service
+11:23:17.867 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setValid true
+11:23:17.867 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDiagnostics
+11:23:17.867 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.867 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+11:23:17.867 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/e:/OneDrive/Рабочий%20стол/SoftwareEngineering/HomeWork2/Structurizer/workspace.dsl
+11:23:17.868 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+11:23:17.868 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.868 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:17.868 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+11:23:17.868 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+11:23:17.882 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [36, -1, 8, 14, 0, 0, 20, 11, 14, 0, 7, -1, 19, 14, 0, 0, 24, 11, 14, 0, 9, -1, 15, 14, 0, 0, 24, 19, 14, 0, 9, -1, 9, 14, 0, 0, 20, 12, 14, 0, 1, -1, 9, 14, 0, 0, 20, 8, 14, 0, 7, -1, 19, 14, 0, 0, 24, 12, 14, 0, 8, -1, 15, 14, 0, 0, 24, 8, 14, 0, 9, -1, 16, 14, 0, 0, 24, 19, 14, 0, 1, -1, 16, 14, 0, 0, 24, 8, 14, 0, 1, -1, 16, 14, 0, 0, 24, 15, 14, 0, 11, -1, 8, 14, 0, 0, 20, 11, 14, 0, 1, -1, 8, 14, 0, 0, 20, 9, 14, 0, 7, -1, 19, 14, 0, 0, 24, 11, 14, 0, 9, -1, 15, 14, 0, 0, 24, 8, 14, 0, 9, -1, 17, 14, 0, 0, 24, 19, 14, 0, 1, -1, 17, 14, 0, 0, 24, 15, 14, 0, 10, -1, 16, 14, 0, 0, 24, 19, 14, 0, 1, -1, 16, 14, 0, 0, 24, 15, 14, 0, 1, -1, 16, 14, 0, 0, 24, 9, 14, 0, 14, 55, 11, 14, 0, 7, 55, 12, 14, 0, 8, 55, 11, 14, 0, 14, 37, 8, 14, 0, 0, 29, 11, 14, 0, 1, 37, 8, 14, 0, 0, 29, 12, 14, 0, 1, 37, 9, 14, 0, 0, 30, 8, 14, 0, 1, 37, 8, 14, 0, 0, 29, 8, 14, 0, 1, 37, 8, 14, 0, 0, 29, 9, 14, 0, 7, 8, 4, 14, 0, 0, 8, 16, 14, 0, 1, 8, 4, 14, 0, 0, 25, 8, 14, 0, 1, 8, 4, 14, 0, 0, 25, 9, 14, 0, 1, 8, 4, 14, 0, 0, 25, 8, 14, 0, 2, 8, 4, 14, 0, 0, 34, 16, 14, 0, 1, 8, 4, 14, 0, 0, 34, 17, 14, 0, 2, 8, 4, 14, 0, 0, 35, 16, 14, 0, 2, 8, 4, 14, 0, 0, 34, 15, 14, 0, 15, 22, 16, 14, 0, 6, 18, 16, 14, 0, 5, 35, 8, 14, 0, 6, 35, 9, 14, 0, 7, 35, 8, 14, 0, 11, 16, 16, 14, 0]
+11:23:20.957 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+11:23:20.957 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:23:20.957 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:20.957 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+11:23:20.960 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [36, -1, 8, 14, 0, 0, 20, 11, 14, 0, 7, -1, 19, 14, 0, 0, 24, 11, 14, 0, 9, -1, 15, 14, 0, 0, 24, 19, 14, 0, 9, -1, 9, 14, 0, 0, 20, 12, 14, 0, 1, -1, 9, 14, 0, 0, 20, 8, 14, 0, 7, -1, 19, 14, 0, 0, 24, 12, 14, 0, 8, -1, 15, 14, 0, 0, 24, 8, 14, 0, 9, -1, 16, 14, 0, 0, 24, 19, 14, 0, 1, -1, 16, 14, 0, 0, 24, 8, 14, 0, 1, -1, 16, 14, 0, 0, 24, 15, 14, 0, 11, -1, 8, 14, 0, 0, 20, 11, 14, 0, 1, -1, 8, 14, 0, 0, 20, 9, 14, 0, 7, -1, 19, 14, 0, 0, 24, 11, 14, 0, 9, -1, 15, 14, 0, 0, 24, 8, 14, 0, 9, -1, 17, 14, 0, 0, 24, 19, 14, 0, 1, -1, 17, 14, 0, 0, 24, 15, 14, 0, 10, -1, 16, 14, 0, 0, 24, 19, 14, 0, 1, -1, 16, 14, 0, 0, 24, 15, 14, 0, 1, -1, 16, 14, 0, 0, 24, 9, 14, 0, 14, 55, 11, 14, 0, 7, 55, 12, 14, 0, 8, 55, 11, 14, 0, 14, 37, 8, 14, 0, 0, 29, 11, 14, 0, 1, 37, 8, 14, 0, 0, 29, 12, 14, 0, 1, 37, 9, 14, 0, 0, 30, 8, 14, 0, 1, 37, 8, 14, 0, 0, 29, 8, 14, 0, 1, 37, 8, 14, 0, 0, 29, 9, 14, 0, 7, 8, 4, 14, 0, 0, 8, 16, 14, 0, 1, 8, 4, 14, 0, 0, 25, 8, 14, 0, 1, 8, 4, 14, 0, 0, 25, 9, 14, 0, 1, 8, 4, 14, 0, 0, 25, 8, 14, 0, 2, 8, 4, 14, 0, 0, 34, 16, 14, 0, 1, 8, 4, 14, 0, 0, 34, 17, 14, 0, 2, 8, 4, 14, 0, 0, 35, 16, 14, 0, 2, 8, 4, 14, 0, 0, 34, 15, 14, 0, 15, 22, 16, 14, 0, 6, 18, 16, 14, 0, 5, 35, 8, 14, 0, 6, 35, 9, 14, 0, 7, 35, 8, 14, 0, 11, 16, 16, 14, 0]
+11:23:21.503 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+11:23:21.503 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:23:21.503 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:21.503 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+11:23:21.801 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+11:23:21.801 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:23:21.801 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:21.801 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+11:23:30.239 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+11:23:30.239 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+11:23:30.239 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+11:23:30.240 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:23:30.240 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:23:30.240 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:30.240 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+11:23:30.240 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/e:/OneDrive/Рабочий%20стол/SoftwareEngineering/HomeWork2/Structurizer/workspace.dsl
+11:23:30.240 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+11:23:30.240 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:30.240 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+11:23:30.489 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+11:23:30.489 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:23:30.489 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: e:\OneDrive\Рабочий стол\SoftwareEngineering\HomeWork2\Structurizer\workspace.dsl
+11:23:30.490 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
