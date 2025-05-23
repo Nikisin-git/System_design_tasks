@@ -10,7 +10,7 @@ class TripCreateRequest(BaseModel):
 
     route_id: int = Field(..., examples=[10])
     driver_user_id: int = Field(..., examples=[1])
-    start_time: datetime = Field(..., examples=["2025-03-28T10:00:00"])
+    start_time: datetime = Field(..., examples=["2025-05-19T10:00:00"])
     max_passengers: int = Field(..., examples=[4])
 
 
