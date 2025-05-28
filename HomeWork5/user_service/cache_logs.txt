@@ -35,28 +35,28 @@ su@DESKTOP-7SVVN6R:/mnt/c/SoftwareEngineering/HomeWork5/user_service$ wrk -t1 -c
 Running 10s test @ http://localhost:8000/users/admin
   1 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency    18.31ms    3.10ms  50.21ms   75.79%
-    Req/Sec   548.92     53.44   626.00     82.00%
-  5467 requests in 10.01s, 1.05MB read
-Requests/sec:    546.24
-Transfer/sec:    107.23KB
+    Latency    11.34ms    1.80ms  23.61ms   73.33%
+    Req/Sec     0.89k    64.31     0.98k    81.00%
+  8821 requests in 10.01s, 1.69MB read
+Requests/sec:    881.63
+Transfer/sec:    173.05KB
 
 su@DESKTOP-7SVVN6R:/mnt/c/SoftwareEngineering/HomeWork5/user_service$ wrk -t5 -c10 -d10s -s auth.lua  http://localhost:8000/users/admin
 Running 10s test @ http://localhost:8000/users/admin
   5 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency    17.98ms    3.10ms  47.31ms   78.42%
-    Req/Sec   111.58     13.67   280.00     92.02%
-  5572 requests in 10.10s, 1.07MB read
-Requests/sec:    551.77
-Transfer/sec:    108.32KB
+    Latency    45.08ms  118.03ms 762.66ms   92.31%
+    Req/Sec   165.93     26.91   202.00     92.67%
+  8428 requests in 11.26s, 1.62MB read
+Requests/sec:    748.36
+Transfer/sec:    146.91KB
 
 su@DESKTOP-7SVVN6R:/mnt/c/SoftwareEngineering/HomeWork5/user_service$ wrk -t10 -c10 -d10s -s auth.lua  http://localhost:8000/users/admin
 Running 10s test @ http://localhost:8000/users/admin
   10 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency    50.02ms  114.14ms 741.76ms   92.34%
-    Req/Sec    54.48      9.66    70.00     92.82%
-  5582 requests in 11.29s, 1.07MB read
-Requests/sec:    494.40
-Transfer/sec:     97.04KB
+    Latency    11.15ms    1.65ms  20.07ms   72.20%
+    Req/Sec    89.69      7.86   181.00     73.93%
+  9011 requests in 10.10s, 1.73MB read
+Requests/sec:    892.33
+Transfer/sec:    175.15KB
