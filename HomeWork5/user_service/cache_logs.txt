@@ -1,0 +1,62 @@
+Логи тестирования производительности без кэша:
+su@DESKTOP-7SVVN6R:/mnt/c/SoftwareEngineering/HomeWork5/user_service$ wrk -t1 -c10 -d10s -s auth.lua  http://localhost:8000/users/admin
+Running 10s test @ http://localhost:8000/users/admin
+  1 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    46.25ms   42.45ms 386.36ms   93.76%
+    Req/Sec   262.83     62.67   323.00     87.50%
+  2535 requests in 10.01s, 527.30KB read
+Requests/sec:    253.27
+Transfer/sec:     52.68KB
+
+su@DESKTOP-7SVVN6R:/mnt/c/SoftwareEngineering/HomeWork5/user_service$ wrk -t5 -c10 -d10s -s auth.lua  http://localhost:8000/users/admin
+Running 10s test @ http://localhost:8000/users/admin
+  5 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    43.74ms   26.40ms 307.28ms   93.52%
+    Req/Sec    47.84     11.96    70.00     56.19%
+  1438 requests in 10.02s, 299.12KB read
+Requests/sec:    143.58
+Transfer/sec:     29.86KB
+
+su@DESKTOP-7SVVN6R:/mnt/c/SoftwareEngineering/HomeWork5/user_service$ wrk -t10 -c10 -d10s -s auth.lua  http://localhost:8000/users/admin
+Running 10s test @ http://localhost:8000/users/admin
+  10 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    45.46ms   23.97ms 253.29ms   87.77%
+    Req/Sec    22.22      7.77    40.00     40.98%
+  1061 requests in 11.37s, 220.70KB read
+Requests/sec:     93.33
+Transfer/sec:     19.41KB
+
+<===================================================================================================>
+Логи тестирования производительности с кэшем:
+su@DESKTOP-7SVVN6R:/mnt/c/SoftwareEngineering/HomeWork5/user_service$ wrk -t1 -c10 -d10s -s auth.lua  http://localhost:8000/users/admin
+Running 10s test @ http://localhost:8000/users/admin
+  1 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    18.31ms    3.10ms  50.21ms   75.79%
+    Req/Sec   548.92     53.44   626.00     82.00%
+  5467 requests in 10.01s, 1.05MB read
+Requests/sec:    546.24
+Transfer/sec:    107.23KB
+
+su@DESKTOP-7SVVN6R:/mnt/c/SoftwareEngineering/HomeWork5/user_service$ wrk -t5 -c10 -d10s -s auth.lua  http://localhost:8000/users/admin
+Running 10s test @ http://localhost:8000/users/admin
+  5 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    17.98ms    3.10ms  47.31ms   78.42%
+    Req/Sec   111.58     13.67   280.00     92.02%
+  5572 requests in 10.10s, 1.07MB read
+Requests/sec:    551.77
+Transfer/sec:    108.32KB
+
+su@DESKTOP-7SVVN6R:/mnt/c/SoftwareEngineering/HomeWork5/user_service$ wrk -t10 -c10 -d10s -s auth.lua  http://localhost:8000/users/admin
+Running 10s test @ http://localhost:8000/users/admin
+  10 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    50.02ms  114.14ms 741.76ms   92.34%
+    Req/Sec    54.48      9.66    70.00     92.82%
+  5582 requests in 11.29s, 1.07MB read
+Requests/sec:    494.40
+Transfer/sec:     97.04KB
